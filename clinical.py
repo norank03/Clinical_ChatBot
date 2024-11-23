@@ -11,12 +11,12 @@ from huggingface_hub import login
 
 # Set the environment variables
 os.environ['HF_HOME'] = '/path/to/your/hf/cache'  # Custom cache directory
-os.environ['HUGGINGFACE_TOKEN'] = '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'
+os.environ['HUGGINGFACE_TOKEN'] = ''
 
 # Log in to Hugging Face Hub
 login(token=os.environ['HUGGINGFACE_TOKEN'])
 
-API_KEY_COHERE = 'Q291Ze67Dtfj0RCOhrBbX8rQR9odbdWPlRg4GvSZ'
+API_KEY_COHERE = ''
 co = cohere.Client(API_KEY_COHERE)
 
 # Set Streamlit page configuration
